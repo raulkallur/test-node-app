@@ -28,7 +28,6 @@ app.listen(port, () => {
 function logMessage() {
     let message = `Service running - ${Math.floor(Date.now() / 1000)}`;
     console.log("Service Logs");
-    console.log("Service Log Data");
   console.log(message);
 }
 
