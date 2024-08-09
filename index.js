@@ -27,7 +27,7 @@ app.listen(port, () => {
 // Function to log a message every 10 seconds
 function logMessage() {
     let message = `Service running - ${Math.floor(Date.now() / 1000)}`;
-    console.log("Service Logs")
+    console.log("Service Logs");
   console.log(message);
 }
 
